@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHospital.Logging.Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHospital.Logging.Sink.MSSqlServer", "src\SoftwareHospital.Logging.Sink.MSSqlServer\SoftwareHospital.Logging.Sink.MSSqlServer.csproj", "{5846B6B5-25C0-494F-BDB0-E33F01864CA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHospital.ExceptionHandling", "src\SoftwareHospital.ExceptionHandling\SoftwareHospital.ExceptionHandling.csproj", "{27C1EA6E-B179-439F-BFC9-FDE1E8CA4F2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,7 @@ Global
 		{C8CF3373-337A-45E0-BEFE-FF8A6301ED05} = {7C35EF6C-5BA6-4ED3-B88B-AAFD765E8EE7}
 		{14D86BC5-4FBF-48FB-8455-12CC7FEB31A3} = {7C35EF6C-5BA6-4ED3-B88B-AAFD765E8EE7}
 		{5846B6B5-25C0-494F-BDB0-E33F01864CA1} = {7C35EF6C-5BA6-4ED3-B88B-AAFD765E8EE7}
+		{27C1EA6E-B179-439F-BFC9-FDE1E8CA4F2C} = {7C35EF6C-5BA6-4ED3-B88B-AAFD765E8EE7}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2F47E520-8ABC-4B92-8927-28F654C2973D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -47,5 +50,9 @@ Global
 		{5846B6B5-25C0-494F-BDB0-E33F01864CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5846B6B5-25C0-494F-BDB0-E33F01864CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5846B6B5-25C0-494F-BDB0-E33F01864CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C1EA6E-B179-439F-BFC9-FDE1E8CA4F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C1EA6E-B179-439F-BFC9-FDE1E8CA4F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C1EA6E-B179-439F-BFC9-FDE1E8CA4F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C1EA6E-B179-439F-BFC9-FDE1E8CA4F2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
