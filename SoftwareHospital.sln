@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C35EF6C-5BA6-4ED3-B88B-AAFD765E8EE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{930FB018-AC95-4EE4-8899-FA28C568CDEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHospital.Logging", "src\SoftwareHospital.Logging\SoftwareHospital.Logging.csproj", "{2F47E520-8ABC-4B92-8927-28F654C2973D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHospital.Logging.Sink.Console", "src\SoftwareHospital.Logging.Sink.Console\SoftwareHospital.Logging.Sink.Console.csproj", "{35693C17-90BA-457C-8FFC-8E3B25C49B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHospital.Logging.Sink.File", "src\SoftwareHospital.Logging.Sink.File\SoftwareHospital.Logging.Sink.File.csproj", "{C8CF3373-337A-45E0-BEFE-FF8A6301ED05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHospital.Logging.Sink.PostgreSql", "src\SoftwareHospital.Logging.Sink.PostgreSql\SoftwareHospital.Logging.Sink.PostgreSql.csproj", "{14D86BC5-4FBF-48FB-8455-12CC7FEB31A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHospital.Logging.Sink.MSSqlServer", "src\SoftwareHospital.Logging.Sink.MSSqlServer\SoftwareHospital.Logging.Sink.MSSqlServer.csproj", "{5846B6B5-25C0-494F-BDB0-E33F01864CA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F47E520-8ABC-4B92-8927-28F654C2973D} = {7C35EF6C-5BA6-4ED3-B88B-AAFD765E8EE7}
+		{35693C17-90BA-457C-8FFC-8E3B25C49B39} = {7C35EF6C-5BA6-4ED3-B88B-AAFD765E8EE7}
+		{C8CF3373-337A-45E0-BEFE-FF8A6301ED05} = {7C35EF6C-5BA6-4ED3-B88B-AAFD765E8EE7}
+		{14D86BC5-4FBF-48FB-8455-12CC7FEB31A3} = {7C35EF6C-5BA6-4ED3-B88B-AAFD765E8EE7}
+		{5846B6B5-25C0-494F-BDB0-E33F01864CA1} = {7C35EF6C-5BA6-4ED3-B88B-AAFD765E8EE7}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F47E520-8ABC-4B92-8927-28F654C2973D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F47E520-8ABC-4B92-8927-28F654C2973D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F47E520-8ABC-4B92-8927-28F654C2973D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F47E520-8ABC-4B92-8927-28F654C2973D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35693C17-90BA-457C-8FFC-8E3B25C49B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35693C17-90BA-457C-8FFC-8E3B25C49B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35693C17-90BA-457C-8FFC-8E3B25C49B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35693C17-90BA-457C-8FFC-8E3B25C49B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8CF3373-337A-45E0-BEFE-FF8A6301ED05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8CF3373-337A-45E0-BEFE-FF8A6301ED05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8CF3373-337A-45E0-BEFE-FF8A6301ED05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8CF3373-337A-45E0-BEFE-FF8A6301ED05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D86BC5-4FBF-48FB-8455-12CC7FEB31A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D86BC5-4FBF-48FB-8455-12CC7FEB31A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D86BC5-4FBF-48FB-8455-12CC7FEB31A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D86BC5-4FBF-48FB-8455-12CC7FEB31A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5846B6B5-25C0-494F-BDB0-E33F01864CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5846B6B5-25C0-494F-BDB0-E33F01864CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5846B6B5-25C0-494F-BDB0-E33F01864CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5846B6B5-25C0-494F-BDB0-E33F01864CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
